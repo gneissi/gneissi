@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "asdasdasd"
+AuthUserFile file:///C:/Users/Ehk%C3%A4nas/Desktop/Uusi%20kansio%20(2)/Gneissi/.htpasswd
+require valid-user
