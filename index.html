@@ -7,30 +7,7 @@
 	<body style="background-color:black;">
 		<title> gNeissi </title>
 	
-<SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Salasana',' ');
-while (testV < 2) {
-if (!pass1)
-history.go(0);
-if (pass1.toLowerCase() == "pastorisalakari") {
-window.open('Valaistuminen1.html');
-break;
-}
-if (pass1.toLowerCase() == "zeusateria") {
-window.open('Valaistuminen2.html');
-break;
-}
-testV+=1;
-var pass1 =
-prompt('Salasana','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3)
-history.go(0);
-return " ";
-}
-</SCRIPT>
+
 
 
 <style>
@@ -68,7 +45,7 @@ li a:hover {
   <li><a class="active" href="Index.html">01</a></li>
   <li><a href="Tapahtumat.html">02</a></li>
   <li><a href="Diskografia.html">03</a></li>
-  <li><a href="#" onClick="passWord()">Valaistuminen</a></li>
+  <li><a href="valaistuminen.html">Valaistuminen</a></li>
 </ul>
   			<img id="hid" img src="pic2.jpg" width="1024" height="768"> 
 <br>
